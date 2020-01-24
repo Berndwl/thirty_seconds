@@ -1,0 +1,30 @@
+#Official
+Nieuwjaar
+Goede vrijdag
+Pasen
+Paasmaandag
+Koningsdag
+Bevrijdingsdag
+Hemelvaart
+Pinksteren
+Pinkstermaandag
+Kerstmis
+1e Kerstdag
+2e Kerstdag
+
+#Commercial
+Valentijn
+Carnaval
+Zomertijd
+Dag van de Arbeid
+Dodenherdenking
+Bevrijdingsdag
+Moederdag
+Vaderdag
+Prinsjesdag
+Dierendag
+Wintertijd
+Halloween
+Sint Maarten
+Sinterklaas
+Oudjaar

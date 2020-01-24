@@ -1,0 +1,161 @@
+#Dutch Known brands
+AEGON
+AkzoNobel
+Nationale Nederlanden
+Elsevier
+delta lloyd
+Postnl
+Calvé
+Senseo
+TenCate
+Douwe Egberts
+Unilever
+Philips
+
+#Airlines
+KLM
+American Airlines
+Qatar Airways
+Fly Emirates
+Lufthansa
+Vuelling
+EasyJet
+TUI
+RyanAir
+Transavia
+Corendon
+
+
+#Providers
+Ziggo
+Vodafone
+Tele2
+Kpn
+T-Mobile
+
+#Banken
+SNS
+ING
+ABN AMRO
+Rabobank
+
+#Luxury Clothing
+Rolex
+Armani
+Fendi
+Versace
+Burberry
+Ralph Lauren
+Chanel
+Prada
+Hermes
+Gucci
+Louis Vuitton
+
+#Sport Clothing
+Adidas
+Casio
+New Balance
+Nike
+Under Armour
+Vans
+Puma
+Umbro
+Converse
+Lotto
+Speedo
+Asics
+
+#International MISC
+TomTom
+Apple
+Coca-Cola
+Shell
+AT&T
+Microsoft
+Google
+Verizon
+Amazon
+Walmart
+Nestlé
+Intel
+Boeing
+Airbus
+IBM
+Alibaba
+Facebook
+Siemens
+Walt Disney
+Sony
+Samsung
+American Express
+Oracle
+Visa
+MasterCard
+FedEx
+DHL
+Barclays
+
+
+#Shops
+Albert Heijn
+Jumbo
+Aldi
+Lidl
+Primera
+Gall & Gall
+Etos
+Sligro
+Hanos
+C&A
+H&M
+Zara
+De Bijenkorf
+Beter Bed
+JYSK
+IKEA
+AKO
+Bruna
+Gamma
+Karwei
+Praxis
+Kwantum
+Hans Anders
+Pearle
+Specsavers
+Douglas
+Rituals
+ICI Paris
+Kruidvat
+BCC
+Dominos
+MCDonald's
+Kaldi
+Action
+Blokker
+De Hypotheker
+The Sting
+Jack & Jones
+Wibra
+Zeeman
+hunkemöller
+Leen Bakker
+van Haren
+Scapino
+Schoenenreus
+Intertoys
+Bart Smit
+Aktiesport
+Plus
+Spar
+VVV
+
+#webshops
+Zalando
+WehKamp
+Coolblue
+Mediamarkt
+
+
+
+

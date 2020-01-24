@@ -1,0 +1,97 @@
+#Football
+#Retired
+Johan Cruijff
+Marco van Basten
+Ruud Gullit
+Frank Rijkaard
+Edwin van der Sar
+Pele
+David Beckham
+
+Lionel Messi
+Crisiano Ronaldo
+Zlatan Ibrahimovic
+Franck Ribery
+Andres Iniesta
+Neymar
+Gareth Bale
+Xavi
+Luis Suarez
+Sergio Aguero
+Robin van Persie
+Mesut Ozil
+Edinson Cavani
+Arjen Robben
+Philipp Lahm
+Radamel Falcao
+Thiago Silva
+Robert Lewandowski
+Yaya Toure
+Bastian Schweinsteiger
+Andrea Pirlo
+Manuel Neuer
+Marco Reus
+Gianluigi Buffon
+Thomas Muller
+Arture Vidal
+Wayne Rooney
+Cesc Fabregas
+Juan Mata
+Francesco Totti
+David Silva
+Mario Balotelli
+Mario Götze
+Xabi Alonso
+Daniele De Rossi
+Gerard Pique
+Toni Kroos
+Dani Alves
+Vincent Kompany
+Vavid Alaba
+Sergio Ramos
+Carlos Tevez
+Thibaut Courtois
+Mario Mandzukic
+David Luiz
+Nemanja Vidic
+Karim Benzema
+Gonzalo Higuain
+Jan Vertonghen
+Marcelo
+Luka Modric
+Kevin Strootman
+Petr Cech
+Mats Hummels
+Victor Valdés
+Arda Turan
+Angel Di Maria
+Pierre-Emerick Aubameyang
+Samuel Eto'o
+Frank Lampard
+Koke
+Isco
+Alexis Sánchez
+Eden Hazard
+
+#Basketball
+Michael Jordan
+Kobe Bryant
+
+#MISC
+Leontien van Moorsel
+Pieter van den Hoogenband
+Inge de Bruijn
+Anky van Grunsven
+Marianne Vos
+Sven Kramer
+Ireen Wüst
+Marianne Timmer
+Epke Zonderland
+Rico Verhoeven
+Conor mcGregor
+Muhammad Ali
+Floyd Mayweather
+Rodger Federer
+Rafael Nadal
+Tiger Woods
+Usain Bolt

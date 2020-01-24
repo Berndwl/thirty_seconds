@@ -1,0 +1,62 @@
+#International
+Abraham Lincoln
+Nelson Mandela
+John F. Kennedy
+Martin Luther King
+Queen Elizabeth
+Winston Churchill
+Donald Trump
+Bill Gates
+Gandhi
+Christopher Columbus
+Charles Darwin
+Albert Einstein
+Leonardo da Vinci
+Vincent Van Gogh
+Franklin D. Roosevelt
+Thomas Edison
+Ludwig Beethoven
+Oprah Winfrey
+Dalai Lama
+Walt Disney
+Neil Armstrong
+Barack Obama
+Henry Ford
+Vladimir Lenin
+Vladimir Putin
+George Bush
+Fidel Castro
+Pablo Picasso
+Adolf Hitler
+Steve Jobs
+Prince Charles
+Anne Frank
+Stephen Hawking
+
+#Actors
+Tom Cruise
+George Clooney
+Brad Pitt
+Jack Nicholson
+Robert De Niro
+Al Pacino
+Tom Hanks
+Anthony Hopkins
+Denzel Washington
+Robin Williams
+Morgan Freeman
+Clint Eastwood
+Charles Chaplin
+Leonardo DiCaprio
+Kevin Spacey
+Johnny Depp
+Jamie Foxx
+Matt Damon
+Hugh Jackman
+Liam Neeson
+Samuel L. Jackson
+Will Smith
+Scarlett Johansson
+Halle Berry
+
+
