@@ -74,6 +74,10 @@ class Team {
 }
 
 void initTeams() {
+  teams = List<Team>();
+  id = 0;
+  previousTeamScore = null;
+
   teams.add(new Team.init('Team 1', Colors.green));
   teams.add(new Team.init('Team 2', Colors.red));
   teams.add(new Team(Colors.orange));

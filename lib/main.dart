@@ -14,7 +14,7 @@ var gameQuestions;
 
 Future<void> main() async {
   runApp(MyApp());
-  
+
   var questionsString = await loadAsset();
   var decodedQuestions = jsonDecode(questionsString);
   allQuestions = gameQuestions = decodedQuestions['dutch'];
@@ -216,67 +216,76 @@ class GameOverviewState extends State<GameOverview> {
       teamSteps += "stappen";
     }
 
-    return Scaffold(
-        appBar: AppBar(title: Text(appBarText)),
-        body: Stack(
-          children: <Widget>[
-            Align(
-                alignment: Alignment.topCenter,
-                child: !teamWon
-                    ? Padding(
-                        padding: EdgeInsets.only(top: 40.0),
+    Future<bool> _onPopHandler(){
+      initTeams();
+      Navigator.of(context).pop(true);
+
+      return Future.value(false);
+    }
+
+    return WillPopScope(
+        onWillPop: _onPopHandler,
+        child: Scaffold(
+            appBar: AppBar(title: Text(appBarText)),
+            body: Stack(
+              children: <Widget>[
+                Align(
+                    alignment: Alignment.topCenter,
+                    child: !teamWon
+                        ? Padding(
+                            padding: EdgeInsets.only(top: 40.0),
+                            child: Text(
+                              teamAtTurn,
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                  fontSize: 20, color: currentTeam.teamColor),
+                            ))
+                        : Container()),
+                Padding(
+                    padding: EdgeInsets.only(left: 12.0),
+                    child: CustomPaint(
+                      painter: GameBoard(context),
+                    )),
+                Align(
+                    alignment: Alignment.bottomCenter,
+                    child: previousTeamScore != null
+                        ? Padding(
+                            padding: EdgeInsets.only(bottom: 250.0),
+                            child: Text(
+                              teamSteps,
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                  fontSize: 20, color: previousTeam.teamColor),
+                            ))
+                        : Container()),
+                Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Padding(
+                        padding: EdgeInsets.only(bottom: 150.0),
                         child: Text(
-                          teamAtTurn,
+                          !teamWon ? playerAtTurn : teamWonText,
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                              fontSize: 20, color: currentTeam.teamColor),
-                        ))
-                    : Container()),
-            Padding(
-                padding: EdgeInsets.only(left: 12.0),
-                child: CustomPaint(
-                  painter: GameBoard(context),
-                )),
-            Align(
-                alignment: Alignment.bottomCenter,
-                child: previousTeamScore != null
-                    ? Padding(
-                        padding: EdgeInsets.only(bottom: 250.0),
-                        child: Text(
-                          teamSteps,
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                              fontSize: 20, color: previousTeam.teamColor),
-                        ))
-                    : Container()),
-            Align(
-                alignment: Alignment.bottomCenter,
-                child: Padding(
-                    padding: EdgeInsets.only(bottom: 150.0),
-                    child: Text(
-                      !teamWon ? playerAtTurn : teamWonText,
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          fontSize: 20,
-                          color: !teamWon
-                              ? currentTeam.teamColor
-                              : previousTeam.teamColor),
-                    ))),
-            Align(
-                alignment: Alignment.bottomCenter,
-                child: !teamWon
-                    ? Padding(
-                        padding: EdgeInsets.only(bottom: 50.0),
-                        child: ButtonTheme(
-                            minWidth: 200.0,
-                            child: FlatButton(
-                                color: Colors.blue,
-                                child: Text('Ready'),
-                                onPressed: showQuestion)),
-                      )
-                    : Container())
-          ],
-        ));
+                              fontSize: 20,
+                              color: !teamWon
+                                  ? currentTeam.teamColor
+                                  : previousTeam.teamColor),
+                        ))),
+                Align(
+                    alignment: Alignment.bottomCenter,
+                    child: !teamWon
+                        ? Padding(
+                            padding: EdgeInsets.only(bottom: 50.0),
+                            child: ButtonTheme(
+                                minWidth: 200.0,
+                                child: FlatButton(
+                                    color: Colors.blue,
+                                    child: Text('Ready'),
+                                    onPressed: showQuestion)),
+                          )
+                        : Container())
+              ],
+            )));
   }
 }
 
@@ -481,7 +490,11 @@ class TeamOverviewState extends State<TeamOverview> {
       Navigator.push(
         context,
         MaterialPageRoute(builder: (context) => GameOverview()),
-      );
+      ).then((value) {
+        setState(() {
+          this.teams = getTeams();
+        });
+      });
     }
   }
 
