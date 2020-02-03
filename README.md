@@ -1,3 +1,3 @@
 # thirty_seconds
 
-Written in with Flutter
+Written with Flutter
